@@ -1,0 +1,26 @@
+{
+  "parcels": [
+    {
+      "id": 1,
+      "trackingNumber": "TIS123456",
+      "recipient": "John Doe",
+      "status": "Out for Delivery",
+      "history": [
+        { "location": "Warehouse A", "timestamp": "2023-09-12 09:00", "status": "In Warehouse" },
+        { "location": "City Hub", "timestamp": "2023-09-13 08:00", "status": "Dispatched" },
+        { "location": "Düsseldorf", "timestamp": "2023-09-13 12:00", "status": "Out for Delivery" }
+      ]
+    },
+    {
+      "id": 2,
+      "trackingNumber": "TIS987654",
+      "recipient": "Jane Smith",
+      "status": "Delivered",
+      "history": [
+        { "location": "Warehouse B", "timestamp": "2023-09-10 07:30", "status": "In Warehouse" },
+        { "location": "Cologne", "timestamp": "2023-09-11 10:15", "status": "Dispatched" },
+        { "location": "Düsseldorf", "timestamp": "2023-09-11 16:00", "status": "Delivered" }
+      ]
+    }
+  ]
+}
