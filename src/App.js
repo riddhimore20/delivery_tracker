@@ -28,11 +28,11 @@ function App() {
           <h2 className="font-bold">Recipient: {parcel.recipient}</h2>
           <p>Status: {parcel.status}</p>
           <h3 className="mt-4 font-semibold">History:</h3>
-          <ul>
+          <div>
             {parcel.history.map((h, idx) => (
-              <li key={idx}>{h.timestamp} - {h.status} @ {h.location}</li>
+              <div key={idx}>{h.timestamp} - {h.status} @ {h.location}</div>
             ))}
-          </ul>
+          </div>
         </div>
       )}
     </div>
